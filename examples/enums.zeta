@@ -1,0 +1,22 @@
+import { print } from "zeta:std/debug"
+
+// re-introducing native enums support for zeta
+
+// a variable must specify a default value. no `undefined` allowed
+let variable: Option<any> = None
+
+// type: string
+const constant = "hello, world!"
+
+
+// the following code is not allowed. check optional value first.
+// variable.a = "a"
+// print(variable.a)
+
+// semantic comparation
+if (variable == None) {
+    // enum Option<T> implements Eq { ... }
+    print("variable is none")
+}
+
+// var is not supported.
