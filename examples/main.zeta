@@ -1,0 +1,5 @@
+// hello world from zeta
+
+import { print } from "zeta:std/debug";
+
+print("hello, world!");

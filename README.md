@@ -1,4 +1,4 @@
-# Script
+# Script (or Zeta)
 
 Some of Zeithrold's bedtime fantasies. Nothing serious.
 
